@@ -164,6 +164,7 @@ onUnmounted(() => {
 .new-message-body {
   position: relative;
 }
+
 .custom-label {
   position: absolute;
   top: -21%;
@@ -204,12 +205,28 @@ onUnmounted(() => {
 }
 
 @media (max-width: 768px) {
+  .block-item {
+    padding: 1.5rem 0.5rem;
+  }
+
   .app-container {
     padding: 1rem;
   }
 
   .card-body {
     padding: 1rem;
+  }
+
+  .container {
+    padding: 0.5rem;
+  }
+
+  .card {
+    border-radius: 0.5rem;
+  }
+
+  .btn {
+    padding: 0.5rem 1rem;
   }
 }
 </style>
